@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Nexa Bold", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* Comon Clases */
+
+  .section {
+    width: 100%;
+    float: left;
+    padding: 58px 0;
+  }
+  .full-vh {
+    height: 100vh;
+  }
+  .parent {
+    width: 100%;
+    float: left;
+  }
+  .container {
+    width: 1140px;
+    margin: auto auto;
+  }
+
+  /*  Common COMPONENTS   */
+  .btn {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+  .btn-lgreen {
+    background-color: #30d0c1;
+    padding: 14px 36px;
+    box-shadow: 0px 4px #009487;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    word-spacing: 2px;
+  }
+  .btn-lgreen:hover {
+    background-color: #fff;
+    color: #009487;
+  }
+
+
+  .header-menu a {
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 11px 18px;
+    font-size: 22px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+header nav .logo-box {
+    width: 25%;
+    float: left;
+}
+
+.section-header {
+    background-color: rgb(135, 80, 156);
+    color: white;
+}
+
+.header-menu {
+    width: 75%;
+    float: left;
+    vertical-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-menu a {
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 11px 18px;
+    font-size: 22px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.header-content h1 {
+    font-family: "Nexa Light", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 58px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.btn-tomato {
+    background-color: #ee6f34;
+    padding: 14px 36px;
+    box-shadow: 0px 4px #e64e08;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.header-content {
+    width: 600px;
+    margin: 0 auto;
+    padding: 56px 0;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.section-green {
+    background-color: rgb(23, 194, 164);
+}
+
+.section-title {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+
+.section-title h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.section-title span {
+    border-bottom: 3px solid black;
+    display: block;
+    width: 18%;
+    margin: 0 auto;
+}
+
+.section-title p {
+    padding: 12px 0;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.section-service {
+    width: 100%;
+    float: left;
+    margin-top: 68px;
+}
+
+.section-service .each {
+    width: 25%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.section-service .each h3 {
+    margin-top: 24px;
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.section-team {
+    background-color: #d3d3d3;
+    background-color: #e6f0f8;
+}
+
+.section-title {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.section-title h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-family: "open sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.section-title span {
+    border-bottom: 3px solid black;
+    display: block;
+    width: 18%;
+    margin: 0 auto;
+}
+
+.parent {
+    width: 100%;
+    float: left;
+}
+
+.parent .person-one {
+    width: 25%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+.parent .person-one img {
+    height: 180px;
+    margin-bottom: 18px;
+}
+
+.parent .person-one h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nexa Bold", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.parent .person-one p {
+    margin-bottom: 20px;
+
+    font-family: "Nexa Bold", sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 1;
+}
